@@ -30,3 +30,51 @@
     /* transition curves */
     --transition-curve: cubic-bezier(0.36, -0.21, 0.16, 1.97);
 }
+
+html{
+    font-size: 16px;
+}
+
+body{
+    color: var(--primary-text-color);
+    background: var(--primary-color);
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding: 0 10vw;
+    z-index: 9;
+    background: var(--accent-color);
+}
+
+.logo{
+    height: 1.5rem;
+}
+
+.list-container{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin-left: 7.5%;
+
+}
+
+.links{
+    color: var(--primary-text-color);
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5rem 1rem;
+    transition: .2s;
+}
+
+.links:hover{
+    color: var(--secondary-text-color);
+}
+
+
