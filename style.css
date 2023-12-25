@@ -40,6 +40,7 @@ body{
     background: var(--primary-color);
 }
 
+
 /* navbar------------------------- */
 .navbar{
     position: fixed;
@@ -329,4 +330,57 @@ body{
 
 .review{
     line-height: 1.5rem;
+}
+
+/* restaurants-section----------------- */
+.section{
+    width: 100%;
+    padding: 2re 0 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-details{
+    width: 45%;
+    min-width: 300px;
+    margin-left: auto;
+    /* background-color: antiquewhite; */
+}
+
+.section-highlight{
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: .2rem;
+    background: var(--alpha-secondary-color);
+    color: var(--secondary-color);
+}
+
+.section-title{
+    margin: 2rem 0;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.section-info{
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section-btn{
+    padding: 1.5rem 3rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 0;
+    outline: 0;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+section{
+    padding: 6rem 10rem;
+    position: relative;
 }
