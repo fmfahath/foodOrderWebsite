@@ -358,13 +358,14 @@ body{
 
 .section-title{
     margin: 2rem 0;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 700;
 }
 
 .section-info{
+    font-size: 1.5rem;
     line-height: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.2rem;
 }
 
 .section-btn{
@@ -448,4 +449,53 @@ section{
     background: var(--alpha-secondary-color);
     z-index: -1;
     transform: translate(-50%,-50%) scale(1) rotate(30deg);
+}
+
+.food-img{
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: 0 1rem 1rem var(--shadow);
+    width: 10rem;
+    transform: translate(-50%, -50%);
+}
+
+.food-img:nth-child(1){
+    width: 20rem;
+    top: 50%;
+    left: 50%;
+}
+.food-img:nth-child(2){
+    width: 12rem;
+    top: 15%;
+    left: 100%;
+}
+.food-img:nth-child(3){
+    width: 10rem;
+    top: 60%;
+    left: 107%;
+}
+.food-img:nth-child(4){
+    width: 8rem;
+    top: 95%;
+    left: 80%;
+}
+.food-img:nth-child(5){
+    width: 6rem;
+    top: 100%;
+    left: 40%;
+}
+.food-img:nth-child(6){
+    width: 4rem;
+    top: 80%;
+    left: 10%;
+}
+
+.food-img:nth-child(7){
+    width: 2rem;
+    top: 55%;
+    left: 0%;
+}
+
+.section-food-image{
+    transform: scale(0.8);
 }
