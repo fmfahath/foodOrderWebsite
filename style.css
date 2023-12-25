@@ -390,5 +390,62 @@ section{
     min-height: 30rem;
     position: relative;
     /* transform: scale(0.9) translateY(1rem); */
-    background-color: antiquewhite;
+}
+
+.circle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    background: var(--primary-color);
+    border: .1rem solid var(--secondary-color);
+    border-radius: 100%;
+    transform: translate(-50%, -50%) scale(0.8);
+
+}
+
+.circle span{
+    position: absolute;
+    width: .75rem;
+    height: .75rem;
+    border-radius: 100%;
+    background: var(--secondary-color);
+    transform: translate(-50%,-50%);
+}
+
+.circle span:nth-child(1){
+    top: 0;
+    left: 50%;
+}
+
+.circle span:nth-child(2){
+    top: 30%;
+    left: 4%;
+}
+
+.circle span:nth-child(3){
+    top: 30%;
+    right: 1.5%;
+}
+
+.circle span:nth-child(4){
+    bottom: 30%;
+    left: 3%;
+}
+
+.circle span:nth-child(5){
+    bottom: 30%;
+    right: .5%;
+}
+
+.circle span:nth-child(6){
+    bottom: -2.5%;
+    left: 50%;
+}
+
+.circle:nth-child(2){
+    background: var(--alpha-secondary-color);
+    z-index: -1;
+    transform: translate(-50%,-50%) scale(1) rotate(30deg);
 }
