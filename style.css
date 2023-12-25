@@ -40,6 +40,7 @@ body{
     background: var(--primary-color);
 }
 
+/* navbar------------------------- */
 .navbar{
     position: fixed;
     top: 0;
@@ -77,4 +78,59 @@ body{
     color: var(--secondary-text-color);
 }
 
+.nav-extras{
+     display: flex;
+     align-items: center;
+     margin-left: auto;
+     gap: 1rem;
+}
+
+.search{
+    position: relative;
+    width: 20vw;
+    min-width: 150px;
+    height: 2.5rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+.search-box{
+    width: 100%;
+    height: 100%;
+    background: var(--primary-color);
+    border: none;
+    outline: none;
+    padding: 1rem;
+    font-size: .9rem;
+}  
+
+.search-btn{
+    position: absolute;
+    right: 0;
+    width: 3rem;
+    height: 100%;
+    background: var(--primary-color);
+    border: 0;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    color: var(--secondary-text-color);
+}
+
+.card{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.card:hover{
+    background: var(--alpha-secondary-color);
+}
 
