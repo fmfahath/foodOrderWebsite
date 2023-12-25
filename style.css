@@ -384,3 +384,11 @@ section{
     padding: 6rem 10rem;
     position: relative;
 }
+
+.section-food-image{
+    min-width: 30rem;
+    min-height: 30rem;
+    position: relative;
+    /* transform: scale(0.9) translateY(1rem); */
+    background-color: antiquewhite;
+}
