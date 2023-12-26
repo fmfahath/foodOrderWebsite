@@ -499,3 +499,39 @@ section{
 .section-food-image{
     transform: scale(0.8);
 }
+
+/* reataurant container / cards--------- */
+#restaurants-container{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.restaurant{
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: .1rem solid var(--border-color);
+    overflow: hidden;
+}
+
+.discount{
+     position: absolute;
+     top: 7.5%;
+     left: 0;
+     background-color: var(--discount-color);
+     padding: .3rem .5rem;
+     border-radius: .2rem;
+     z-index: 2;
+     color: var(--primary-color);
+}
+
+.restaurat-thumbnail{
+    position: relative;
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+    border-radius: .5rem;
+}
