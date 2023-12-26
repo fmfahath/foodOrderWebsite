@@ -514,7 +514,9 @@ section{
     padding: 1rem;
     border-radius: .5rem;
     border: .1rem solid var(--border-color);
-    overflow: hidden;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    transition: .2s;
+    /* overflow: hidden; */
 }
 
 .discount{
@@ -535,3 +537,61 @@ section{
     overflow: hidden;
     border-radius: .5rem;
 }
+
+.restaurants-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .25rem;
+    transition: transform .5s  var(--transition-curve);
+}
+
+.restaurant:hover .restaurants-img{
+    transform: scale(1.1);
+}
+
+.restaurant-body{
+    position: relative;
+    margin: 2rem 0 1rem;
+}
+
+.restaurant-name{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    /* font-weight: 600; */
+    margin: 1rem 0;
+}
+
+.menu{
+    width: 80%;
+    opacity: .75;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 1rem 0;
+}
+
+.place{
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.rating{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: var(--secondary-color);
+    color: var(--light-text-color);
+    padding: .4rem .6rem;
+    font-size: .9rem;
+    display: flex;
+    gap: .5rem;
+    border-radius: .2rem;
+}
+
+.restaurant:hover{
+    background-color: var(--card-hover-bg-color);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+
