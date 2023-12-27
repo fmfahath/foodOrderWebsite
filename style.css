@@ -33,6 +33,7 @@
 
 html{
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 body{
@@ -612,13 +613,33 @@ section{
 .leafe-layer.right{
     top: -10%;
     right: -5%;
-    transform: rotate(30deg);
+    transform: scale(0.9) rotate(10deg);
 }
 
 
 .leafe-layer.left{
     bottom: -10%;
     left: -5%;
-    transform: rotate(180deg);
+    transform: scale(0.9) rotate(180deg);
 }
 
+/* about section------------------------------------- */
+#about-section{
+    padding-bottom: 0;
+}
+
+.about{
+    width: 30%;
+    margin-left: auto;
+    min-width: 250px;
+}
+
+.about-title{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--secondary-text-color);
+}
+.about-info{
+    margin: 2rem 0 4rem;
+    line-height: 2rem;
+}
