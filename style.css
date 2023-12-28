@@ -816,3 +816,18 @@ section{
     transition: .2s;
     color: var(--secondary-text-color);
 }   
+
+.answer-box{
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: .5s;
+    border-top: .1rem solid var(--border-color);
+}
+
+.answer{
+    overflow: hidden;
+    line-height: 2rem;
+    padding: 0 2rem;
+    background-color: antiquewhite;
+}
+
