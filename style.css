@@ -867,3 +867,33 @@ section{
 .download-btn-group img{
     width: 10rem;
 }
+
+.download-app-img-container{
+    min-width: 30rem;
+    min-height: 30rem;
+    position: relative;
+
+}
+.pulse{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.pulse .circle{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    background: var(--accent-color);
+    border: none;
+    border-radius: 100%;
+}
+
+.pulse .circle:nth-child(2){
+    transform: translate(-50%, -50%) scale(1);
+    background-color: transparent;
+    border: .1rem solid  var(--accent-color);
+}
