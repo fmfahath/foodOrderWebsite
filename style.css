@@ -856,3 +856,14 @@ section{
     height: 100%;
     object-fit: cover;
 }
+
+/* downlaod app section-------------------------------- */
+.download-btn-group{
+    display: flex;
+    margin-top: 3rem;
+    gap: 1.5rem;
+}
+
+.download-btn-group img{
+    width: 10rem;
+}
