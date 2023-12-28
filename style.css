@@ -777,3 +777,12 @@ section{
     bottom: -23%;
     left: 31%;
 }
+
+/* f & Q section-------------------------------------- */
+#faq-section .section-title{
+    text-align: center;
+    font-size: 3re;
+    margin-bottom:  8rem;
+    font-weight: 400;
+}
+
