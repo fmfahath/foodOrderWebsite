@@ -1,9 +1,11 @@
 let reviewWrapEl = document.querySelectorAll('.review-wrapper');
 let currentReviews = [0,2];
-// let faqsEl = [...document.querySelectorAll('faq-card')];
 let faqsEl = document.querySelectorAll('.faq-card');
+let discountSlider = document.querySelector('.discount-slider');
+let rotationalVal = 0;
 
 
+console.log(discountSlider);
 
 ///display reiew box in about section-----------------------------
 let updteReviewSlider = (cards) => {
@@ -36,5 +38,11 @@ faqsEl.forEach((faqs) => {
     });
 });
 
+//discount slider image rotation------------------------------------
+
+setInterval(() => {
+    rotationalVal += 120;
+    discountSlider.style.transform = `translateY(-50%) rotate(${rotationalVal}deg)`;
+}, 2000);
 
 
