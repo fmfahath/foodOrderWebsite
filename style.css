@@ -1068,3 +1068,23 @@ section{
 .footer-text{
     margin-bottom: 1rem;
 }
+
+.payment-partners{
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    right: 10vw;
+    bottom: 20%;
+}
+
+.payment-partners img{
+    height: 2rem;
+}
+
+.payment-text{
+    position: absolute;
+    bottom: 12%;
+    right: 10vw;
+    font-size: .8rem;
+    opacity: 0.5rem;
+}
