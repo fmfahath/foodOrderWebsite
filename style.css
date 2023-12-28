@@ -793,7 +793,7 @@ section{
     border: .1rem solid var(--accent-color);
     margin-bottom: 2rem;
     position: relative;
-    box-shadow: 0 .2rem .3rem var(--box-shadow);
+    box-shadow: 0 .1rem .2rem var(--box-shadow);
     /* padding: 1rem 2rem; */
 }
 
@@ -840,4 +840,19 @@ section{
 
 .faq-card.active .question-box i{
    transform: rotate(45deg);
+}
+
+.dish-layer{
+    position: absolute;
+    right: -6%;
+    bottom: -20%;
+    width: 20rem;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.dish-layer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
