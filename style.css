@@ -960,3 +960,39 @@ section{
     width: fit-content;
     font-weight: 700;
 }
+
+.discount-slider{
+    position: absolute;
+    top: 50%;
+    right: -17.5rem;
+    transform: translateY(-50%);
+    width: 35rem;
+    height: 35rem;
+    border-radius: 100%;
+    transform-origin: center;
+    transition: .75s ease-in-out;
+    /* background-color: #000; */
+}
+
+.discount-slider img{
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    object-fit: cover;
+    transform: translateY(-50%);
+}
+
+.discount-slider img:nth-child(1){
+    top: 50%;
+    left: -7.5rem;
+}
+ 
+.discount-slider img:nth-child(2){
+    top: 10%;
+    right: 2rem;
+}
+
+.discount-slider img:nth-child(3){
+    top: 90%;
+    right: 2rem;
+}
