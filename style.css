@@ -820,14 +820,24 @@ section{
 .answer-box{
     display: grid;
     grid-template-rows: 0fr;
+    /* height: 0; */
     transition: .5s;
     border-top: .1rem solid var(--border-color);
+    /* overflow: hidden; */
 }
 
 .answer{
     overflow: hidden;
     line-height: 2rem;
     padding: 0 2rem;
-    background-color: antiquewhite;
 }
 
+.faq-card.active .answer-box{
+    padding: 2rem  0;
+    grid-template-rows: 1fr;
+    /* height: 100px; */
+}
+
+.faq-card.active .question-box i{
+   transform: rotate(45deg);
+}
