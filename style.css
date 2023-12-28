@@ -1088,3 +1088,19 @@ section{
     font-size: .8rem;
     opacity: 0.5rem;
 }
+
+.copyright{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding: .5rem;
+    color: var(--light-text-color);
+    background-color: var(--secondary-color);
+}
+
+.copyright a{
+    text-decoration: none;
+    color: var(--light-text-color);
+}
