@@ -906,12 +906,21 @@ section{
 
 .leaf.left{
     bottom: 15%;
-    left: 15%;
+    left: 5%;
     transform: rotate(20deg);
 }
 
 .leaf.right{
-    bottom: 0;
-    right: 0;
-    transform: rotate(180deg);
+    bottom: -15%;
+    right: 10%;
+    transform: rotate(-180deg);
+}
+
+.phone-mockup{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%) scale(1.1) rotate(5deg);
+    box-shadow: 0 2.5rem 6.25rem var(--phone-app-shadow);
+    border-radius: 2rem;
 }
