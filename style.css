@@ -1035,3 +1035,36 @@ section{
     width: 8rem;
 }
 
+.footer-links-container{
+    margin-left: auto;
+}
+
+.footer-links-container.contact-links{
+    width: 20%;
+}
+
+.footer-links-title{
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: var(--secondary-text-color);
+}
+
+.footer-links, .footer-text{
+    color: var(--primary-text-color);
+    text-decoration: none;
+    margin-bottom: .5rem;
+    line-height: 1.5rem;
+    display: block;
+    opacity: 0.75;
+    text-transform: capitalize;
+}
+
+.footer-links:hover, .footer-text:hover{
+    color: var(--secondary-text-color);
+    opacity: 1;
+}
+
+.footer-text{
+    margin-bottom: 1rem;
+}
