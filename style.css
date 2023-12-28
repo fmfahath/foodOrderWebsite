@@ -924,3 +924,39 @@ section{
     box-shadow: 0 2.5rem 6.25rem var(--phone-app-shadow);
     border-radius: 2rem;
 }
+
+/* discount section------------------------------------------------ */
+.discount-banner{
+    position: relative;
+    display: flex;
+    /* margin: 0 10vw 5rem; */
+    padding: 2rem;
+    border-radius: .5rem;
+    background-image: var(--discount-banner-background-overlay), url(img/discount.png);
+    color: var(--light-text-color);
+    overflow: hidden;
+}
+
+.discount-banner .section-details{
+    margin-left: 0;
+    width: 50%;
+}
+
+.discount-banner .section-title{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.discount-banner .section-info{
+    font-weight: 700;
+}
+
+.discount-banner .section-code{
+    color: var(--secondary-text-color);
+    padding: 1rem 2rem;
+    background: var(--primary-color);
+    border-radius: .25rem;
+    width: fit-content;
+    font-weight: 700;
+}
