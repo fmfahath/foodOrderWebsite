@@ -1101,7 +1101,7 @@ section {
     opacity: 0.5rem;
 }
 
-.copyright {
+.copyright{
     position: absolute;
     width: 100%;
     left: 0;
@@ -1171,10 +1171,5 @@ section {
     .section-title{
         font-size: 4rem;
     }
-
-
-
-
-
 
 }
