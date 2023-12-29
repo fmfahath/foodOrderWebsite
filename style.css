@@ -1163,4 +1163,18 @@ section {
         width: 10rem;
     }
 
+    /* downlaod app section ---------------------------------- */
+    #download-section{
+        transform: scale(0.95);
+    }
+
+    .section-title{
+        font-size: 4rem;
+    }
+
+
+
+
+
+
 }
