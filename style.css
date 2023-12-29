@@ -36,9 +36,16 @@ html{
     overflow-x: hidden;
 }
 
+
 body{
     color: var(--primary-text-color);
     background: var(--primary-color);
+}
+
+
+section{
+    padding: 6rem 10rem;
+    position: relative;
 }
 
 
@@ -379,12 +386,6 @@ body{
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
-}
-
-
-section{
-    padding: 6rem 10rem;
-    position: relative;
 }
 
 .section-food-image{
@@ -1116,6 +1117,7 @@ section{
         padding: 3rem 10vw;
     }
 
+    /* hero sectio--------------------------------- */
     #hero-section{
         min-height: auto;
         padding: 10rem 10vw;
@@ -1128,5 +1130,10 @@ section{
 
     .hero-img-container{
         transform: scale(0.85);
+    }
+
+    /* restaurants section--------------------------- */
+    .section-food-image{
+        transform: scale(0.85) translateX(-6rem);
     }
 }
