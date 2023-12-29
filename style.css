@@ -206,7 +206,7 @@ body{
     color: var(--secondary-text-color);
 }
 
-/* hero imae----------------------- */
+/* hero image----------- */
 
 .hero-img-container{
     min-width: 30rem;
@@ -1103,4 +1103,30 @@ section{
 .copyright a{
     text-decoration: none;
     color: var(--light-text-color);
+}
+
+/* Media query------------------------------------ */
+
+@media (max-width: 1200px){
+    html{
+        font-size: 14.5px;
+    }
+
+    section{
+        padding: 3rem 10vw;
+    }
+
+    #hero-section{
+        min-height: auto;
+        padding: 10rem 10vw;
+        gap: 10rem;
+    }
+
+    .hero-content{
+        width: 50%;
+    }
+
+    .hero-img-container{
+        transform: scale(0.85);
+    }
 }
