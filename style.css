@@ -1184,6 +1184,30 @@ section {
         padding: 3rem 7vw;
     }
 
+    /* hero section---------------------- */
 
+     #hero-section {
+        min-height: auto;
+        padding: 10rem 5vw;
+        gap: 5rem;
+    }
+
+    .hero-action-btn-container .btn, .transparent{
+       padding: 10px 15px;
+
+    }
+
+    /* restaurant section */
+    .section{
+        gap: 50px;
+    }
+
+    .section-food-image {
+        transform: scale(0.75) translateX(-6rem);
+    }
+
+    .section-btn{
+        padding: 1rem 2rem;
+    }
 
 }
