@@ -1128,7 +1128,7 @@ section {
         padding: 3rem 10vw;
     }
 
-    /* hero section--------------------------------- */
+    /* hero section-----------------------*/
     #hero-section {
         min-height: auto;
         padding: 10rem 10vw;
@@ -1143,12 +1143,12 @@ section {
         transform: scale(0.85);
     }
 
-    /* restaurants section--------------------------- */
+    /* restaurants section------------- */
     .section-food-image {
         transform: scale(0.85) translateX(-6rem);
     }
 
-    /* f & q section---------------------------------- */
+    /* f & q section-------------------*/
     #faq-section .section-title {
         margin-bottom: 4rem;
     }
@@ -1163,7 +1163,7 @@ section {
         width: 10rem;
     }
 
-    /* downlaod app section ---------------------------------- */
+    /* downlaod app section ---------------- */
     #download-section{
         transform: scale(0.95);
     }
@@ -1171,5 +1171,19 @@ section {
     .section-title{
         font-size: 4rem;
     }
+
+}
+
+
+@media (max-width: 900px){
+    html{
+        font-size: 13.5px;
+    }
+
+    section, footer{
+        padding: 3rem 7vw;
+    }
+
+
 
 }
