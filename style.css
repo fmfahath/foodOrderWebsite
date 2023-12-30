@@ -1227,4 +1227,16 @@ section {
         width: 10rem;
     }
 
+    /* footer section------------------------- */
+    #footer {
+        padding: 4rem 5vw 8rem;
+    }
+    
+    .company-info{
+        transform:  scale(0.85);
+    }
+
+
+
+
 }
