@@ -1219,4 +1219,12 @@ section {
         position: relative;
         right: -5%;
     }
+
+    /* f & q section------------------------- */
+    .dish-layer {
+        right: -5%;
+        bottom: -15%;
+        width: 10rem;
+    }
+
 }
