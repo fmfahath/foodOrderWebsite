@@ -1319,4 +1319,9 @@ section {
     .hero-img-container{
         transform: scale(0.75);
     }
+
+    /* navbar */
+    .navbar {
+        padding: 0 5vw;
+    }
 }
