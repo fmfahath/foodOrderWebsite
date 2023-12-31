@@ -1257,7 +1257,7 @@ section {
 
 @media (max-width: 850px) {
 
-    /* about us ection------------------ */
+    /* about us section------------------ */
     .about-us-review-container {
         display: none;
         background-color: rgb(119, 255, 106);
@@ -1300,5 +1300,23 @@ section {
     /* discount sectino */
     .discount-banner .section-title {
         font-size: 2rem;
+    }
+
+     /* hero section---------------------- */
+
+     #hero-section {
+        min-height: auto;
+        padding: 10rem 2rem;
+        gap: 5rem;
+    }
+
+    .hero-action-btn-container .btn,
+    .transparent {
+        padding: 10px 15px;
+
+    }
+
+    .hero-img-container{
+        transform: scale(0.75);
     }
 }
