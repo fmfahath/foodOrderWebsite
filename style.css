@@ -63,6 +63,10 @@ section {
     background: var(--accent-color);
 }
 
+.nav-toggler {
+    display: none;
+}
+
 .logo {
     height: 1.5rem;
 }
@@ -1289,7 +1293,7 @@ section {
     }
 
     /* download section */
-    .download-section{
+    .download-section {
         transform: scale(0.75);
     }
 
@@ -1302,9 +1306,9 @@ section {
         font-size: 2rem;
     }
 
-     /* hero section---------------------- */
+    /* hero section---------------------- */
 
-     #hero-section {
+    #hero-section {
         min-height: auto;
         padding: 10rem 2rem;
         gap: 5rem;
@@ -1316,7 +1320,7 @@ section {
 
     }
 
-    .hero-img-container{
+    .hero-img-container {
         transform: scale(0.75);
     }
 
@@ -1324,4 +1328,53 @@ section {
     .navbar {
         padding: 0 5vw;
     }
+}
+
+@media (max-width: 700px) {
+    .nav-toggler {
+        display: block;
+        background-color: antiquewhite;
+        width: 2.5rem;
+        height: 2.5rem;
+        position: relative;
+        cursor: pointer;
+        transition: .5s ease-out;
+    }
+
+    .nav-toggler span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: .1rem;
+        width: 70%;
+        border-radius: 1rem;
+        transition: .5s ease-out;
+        background-color: var(--secondary-color);
+    }
+
+    .nav-toggler span:nth-child(1) {
+        top: 30%;
+    }
+
+    .nav-toggler span:nth-child(3) {
+        top: 70%;
+    }
+
+    .nav-toggler.active span:nth-child(1) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .nav-toggler.active span:nth-child(3) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+    .nav-toggler.active span:nth-child(2) {
+       width: 0;
+    }
+
+
+
 }
