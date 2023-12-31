@@ -33,7 +33,7 @@
 
 html {
     font-size: 16px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 
@@ -659,6 +659,7 @@ section {
     margin-bottom: 2rem;
     padding: 1.5rem;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+
 }
 
 .service-title {
@@ -1101,7 +1102,7 @@ section {
     opacity: 0.5rem;
 }
 
-.copyright{
+.copyright {
     position: absolute;
     width: 100%;
     left: 0;
@@ -1164,41 +1165,43 @@ section {
     }
 
     /* downlaod app section ---------------- */
-    #download-section{
+    #download-section {
         transform: scale(0.95);
     }
 
-    .section-title{
+    .section-title {
         font-size: 4rem;
     }
 
 }
 
 
-@media (max-width: 900px){
-    html{
+@media (max-width: 900px) {
+    html {
         font-size: 13.5px;
     }
 
-    section, footer{
+    section,
+    footer {
         padding: 3rem 7vw;
     }
 
     /* hero section---------------------- */
 
-     #hero-section {
+    #hero-section {
         min-height: auto;
         padding: 10rem 5vw;
         gap: 5rem;
     }
 
-    .hero-action-btn-container .btn, .transparent{
-       padding: 10px 15px;
+    .hero-action-btn-container .btn,
+    .transparent {
+        padding: 10px 15px;
 
     }
 
     /* restaurant section */
-    .section{
+    .section {
         gap: 50px;
     }
 
@@ -1206,14 +1209,14 @@ section {
         transform: scale(0.75) translateX(-6rem);
     }
 
-    .section-btn{
+    .section-btn {
         padding: 1rem 2rem;
     }
 
     /* about us ection------------------ */
-    .about-us-review-container{
+    .about-us-review-container {
         transform: scale(0.85);
-    } 
+    }
 
     .about {
         position: relative;
@@ -1231,12 +1234,57 @@ section {
     #footer {
         padding: 4rem 5vw 8rem;
     }
-    
-    .company-info{
-        transform:  scale(0.85);
+
+    .company-info {
+        transform: scale(0.85);
     }
 
+}
 
+@media (max-width: 1070px) {
 
+    /* about us ection------------------ */
+    .about-us-review-container {
+        transform: scale(0.85);
+    }
 
+    .about {
+        position: relative;
+        right: -10%;
+    }
+
+}
+
+@media (max-width: 850px) {
+
+    /* about us ection------------------ */
+    .about-us-review-container {
+        display: none;
+        background-color: rgb(119, 255, 106);
+    }
+
+    .about {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        top: 50%;
+        left: 0;
+        text-align: center;
+    }
+
+    .about-info {
+        font-size: 1.5rem;
+    }
+
+    #about-section::before {
+        height: 100%;
+    }
+
+    .services-container {
+        display: flex;
+        gap: 20px;
+        /* grid-template-rows: repeat(2, 1fr); */
+    }
 }
