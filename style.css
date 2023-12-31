@@ -1296,4 +1296,9 @@ section {
     .section-title {
         font-size: 3rem;
     }
+
+    /* discount sectino */
+    .discount-banner .section-title {
+        font-size: 2rem;
+    }
 }
