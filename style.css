@@ -1287,4 +1287,13 @@ section {
         gap: 20px;
         /* grid-template-rows: repeat(2, 1fr); */
     }
+
+    /* download section */
+    .download-section{
+        transform: scale(0.75);
+    }
+
+    .section-title {
+        font-size: 3rem;
+    }
 }
