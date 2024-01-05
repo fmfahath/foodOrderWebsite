@@ -1564,9 +1564,16 @@ section {
     }
 
     /* about section--------------------------------------------- */
-    .services-container{
+    .services-container {
         flex-direction: column;
         gap: 0;
         text-align: left;
+    }
+
+    /* f & Q section-------------------------------------- */
+    .dish-layer{
+        right: -8%;
+        bottom: -20%;
+        width: 10rem;
     }
 }
