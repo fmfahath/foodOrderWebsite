@@ -1576,4 +1576,17 @@ section {
         bottom: -20%;
         width: 10rem;
     }
+
+     /* download app section-------------------------------- */
+     .download-app-img-container {
+        transform: scale(0.8);
+    }
+
+    .section-details .section-title{
+        font-size: 2.5rem;
+    }
+
+    .section-details .section-info{
+        font-size: 1.5rem;
+    }
 }
