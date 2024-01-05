@@ -1487,8 +1487,43 @@ section {
         transform: scale(0.9);
         margin-bottom: 1rem;
     }
-    
+
     .download-btn-group {
         justify-content: center;
+    }
+
+
+    /* discount section------------------------------------ */
+    .discount-banner{
+    }
+
+    .discount-banner .section-details {
+        /* width: 70%; */
+        text-align: left;
+    }
+    .discount-banner .section-title {
+        font-size: 2rem;
+    }
+
+    .discount-banner .section-info {
+        font-size:  1.5rem;
+        font-weight: 500;
+    }
+
+    .discount-banner .section-code {
+        padding: .5rem 1rem;
+    }
+    
+
+    .discount-slider {
+        width: 20rem;
+        height: 20rem;
+        right: -12rem;
+        /* background-color: aqua; */
+    }
+
+    .discount-slider img {
+        width: 10rem;
+        height: 10rem;
     }
 }
