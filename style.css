@@ -1450,4 +1450,20 @@ section {
         width: 40rem;
     }
 
+
+    /* restaurant section---------------------------------------- */
+    .section{
+        flex-direction: column;
+    }
+    .section-food-image {
+        /* transform: scale(0.65); */
+    }
+
+    .section-details{
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+    
 }
