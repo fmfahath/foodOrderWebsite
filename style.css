@@ -33,7 +33,7 @@
 
 html {
     font-size: 16px;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 
@@ -45,7 +45,7 @@ body {
 
 section {
     padding: 6rem 10rem;
-    position: relative;
+    position: relative;  
 }
 
 
@@ -1331,14 +1331,18 @@ section {
 }
 
 @media (max-width: 700px) {
+    .navbar{
+        /* background-color: antiquewhite; */
+    }
     .nav-toggler {
         display: block;
-        background-color: antiquewhite;
+        /* background-color: antiquewhite; */
         width: 2.5rem;
         height: 2.5rem;
         position: relative;
         cursor: pointer;
         transition: .5s ease-out;
+        /* margin-right: 1rem; */ 
     }
 
     .nav-toggler span {
@@ -1374,6 +1378,33 @@ section {
     .nav-toggler.active span:nth-child(2) {
        width: 0;
     }
+
+    .list-container {
+        display: block;
+        margin-left: 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--accent-color);
+        transition: .5s;
+        z-index: -1;
+    }
+
+    .list-container .link-item{
+        text-align: right;
+    }
+
+    .list-container .links{
+        display: block;
+        padding: 1.2rem 10vw;
+    }
+
+    .list-container .links:hover{
+       color: var(--secondary-text-color);
+       background-color: var(--primary-color);
+    }
+
 
 
 
