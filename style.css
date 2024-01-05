@@ -1494,8 +1494,6 @@ section {
 
 
     /* discount section------------------------------------ */
-    .discount-banner{
-    }
 
     .discount-banner .section-details {
         /* width: 70%; */
@@ -1525,5 +1523,16 @@ section {
     .discount-slider img {
         width: 10rem;
         height: 10rem;
+    }
+}
+
+@media (max-width: 500px){
+    .hero-img-container{
+        transform: scale(0.7) translateX(0) ;
+    }
+
+    .hero-action-btn-container{
+        flex-direction: column;
+        gap: 1rem;
     }
 }
