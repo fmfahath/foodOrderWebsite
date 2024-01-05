@@ -45,7 +45,7 @@ body {
 
 section {
     padding: 6rem 10rem;
-    position: relative;  
+    position: relative;
 }
 
 
@@ -1341,7 +1341,7 @@ section {
         position: relative;
         cursor: pointer;
         transition: .5s ease-out;
-        /* margin-right: 1rem; */ 
+        /* margin-right: 1rem; */
     }
 
     .nav-toggler span {
@@ -1375,7 +1375,7 @@ section {
     }
 
     .nav-toggler.active span:nth-child(2) {
-       width: 0;
+        width: 0;
     }
 
     .list-container {
@@ -1386,28 +1386,29 @@ section {
         left: 0;
         width: 100%;
         background-color: var(--accent-color);
-        transition: .3s ease-out;;
+        transition: .3s ease-out;
+        ;
         z-index: -1;
         height: 0;
         overflow: hidden;
     }
 
-    .list-container.active{
+    .list-container.active {
         height: 15rem;
     }
 
-    .list-container .link-item{
+    .list-container .link-item {
         text-align: right;
     }
 
-    .list-container .links{
+    .list-container .links {
         display: block;
         padding: 1.2rem 10vw;
     }
 
-    .list-container .links:hover{
-       color: var(--secondary-text-color);
-       background-color: var(--primary-color);
+    .list-container .links:hover {
+        color: var(--secondary-text-color);
+        background-color: var(--primary-color);
     }
 
     .nav-extras {
@@ -1415,7 +1416,7 @@ section {
         /* background-color: antiquewhite; */
     }
 
-    .nav-extras .search{
+    .nav-extras .search {
         width: 80%;
     }
 
@@ -1441,7 +1442,7 @@ section {
         justify-content: center;
     }
 
-    .btn{
+    .btn {
         height: 3.2rem;
         width: 14rem;
     }
@@ -1452,17 +1453,17 @@ section {
 
 
     /* restaurant section---------------------------------------- */
-    .section{
+    .section {
         flex-direction: column;
     }
 
-    .section-details{
+    .section-details {
         width: 100%;
         text-align: center;
     }
-    
+
     /* reataurant container / cards--------- */
-    #restaurants-container{
+    #restaurants-container {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -1483,7 +1484,7 @@ section {
     }
 
     /* download app section-------------------------------- */
-    .download-app-img-container{
+    .download-app-img-container {
         transform: scale(0.9);
         margin-bottom: 1rem;
     }
@@ -1499,19 +1500,20 @@ section {
         /* width: 70%; */
         text-align: left;
     }
+
     .discount-banner .section-title {
         font-size: 2rem;
     }
 
     .discount-banner .section-info {
-        font-size:  1.5rem;
+        font-size: 1.5rem;
         font-weight: 500;
     }
 
     .discount-banner .section-code {
         padding: .5rem 1rem;
     }
-    
+
 
     .discount-slider {
         width: 20rem;
@@ -1526,19 +1528,38 @@ section {
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
+
     /* hero section-------------------------------------------- */
-    .hero-img-container{
-        transform: scale(0.7) translateX(0) ;
+    .hero-img-container {
+        transform: scale(0.7) translateX(0);
     }
 
-    .hero-action-btn-container{
+    .hero-action-btn-container {
         flex-direction: column;
         gap: 1rem;
     }
 
     /* retaurant section---------------------------------------- */
-    .section-food-image{
+    .section-food-image {
         transform: scale(0.6);
+    }
+
+    /* reataurant container / cards------------------------- */
+
+    #restaurants-container {
+        grid-template-columns: 1fr;
+    }
+
+    .leafe-layer.right {
+        top: -5%;
+        right: -12%;
+        transform: scale(0.7);
+    }
+
+    .leafe-layer.left {
+        bottom: -3%;
+        left: -12%;
+        transform: scale(0.7) rotate(180deg);
     }
 }
