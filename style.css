@@ -1562,4 +1562,11 @@ section {
         left: -12%;
         transform: scale(0.7) rotate(180deg);
     }
+
+    /* about section--------------------------------------------- */
+    .services-container{
+        flex-direction: column;
+        gap: 0;
+        text-align: left;
+    }
 }
