@@ -1476,4 +1476,9 @@ section {
         left: -8%;
         transform: scale(0.8) rotate(180deg);
     }
+
+    /* f & Q section-------------------------------------- */
+    #faq-section .section-title {
+        font-size: 2.5rem;
+    }
 }
