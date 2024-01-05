@@ -1616,5 +1616,40 @@ section {
         display: none;
     }
 
+    /* footer section------------------------------------------ */
+    #footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .company-info .social-links {
+        align-items: center;
+        justify-content: center;
+    }
 
+    .footer-links-container {
+        margin: 20px 0;
+        margin-left: 0;
+       text-align: center;
+        /* display: flex; */
+    }
+
+    .footer-links-container.contact-links {
+        width: 100%;
+    }
+
+    .payment-partners {
+        padding: 10px 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .payment-text {
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
 }
