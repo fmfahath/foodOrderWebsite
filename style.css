@@ -1331,9 +1331,8 @@ section {
 }
 
 @media (max-width: 700px) {
-    .navbar{
-        /* background-color: antiquewhite; */
-    }
+
+    /* navbar---------------------------------------- */
     .nav-toggler {
         display: block;
         /* background-color: antiquewhite; */
@@ -1420,7 +1419,35 @@ section {
         width: 80%;
     }
 
+    /* hero section------------------------------------------- */
 
+    #hero-section {
+        flex-direction: column-reverse;
+    }
 
+    .hero-content {
+        width: 80%;
+        text-align: center;
+    }
+
+    .hero-line {
+        line-height: 2rem;
+        opacity: 0.80;
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+
+    .hero-action-btn-container {
+        justify-content: center;
+    }
+
+    .btn{
+        height: 3.2rem;
+        width: 14rem;
+    }
+
+    .review-box {
+        width: 40rem;
+    }
 
 }
