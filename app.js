@@ -3,9 +3,14 @@ let currentReviews = [0,2];
 let faqsEl = document.querySelectorAll('.faq-card');
 let discountSlider = document.querySelector('.discount-slider');
 let rotationalVal = 0;
+let navToggler = document.querySelector('.nav-toggler');
+let listContainer = document.querySelector('.list-container');
 
 
-console.log(discountSlider);
+
+
+
+
 
 ///display reiew box in about section-----------------------------
 let updteReviewSlider = (cards) => {
@@ -46,3 +51,8 @@ setInterval(() => {
 }, 2000);
 
 
+// nav menu toggler
+navToggler.addEventListener('click', () => {
+    navToggler.classList.toggle('active');
+    listContainer.classList.toggle('active');
+});

@@ -1387,8 +1387,14 @@ section {
         left: 0;
         width: 100%;
         background-color: var(--accent-color);
-        transition: .5s;
+        transition: .3s ease-out;;
         z-index: -1;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .list-container.active{
+        height: 15rem;
     }
 
     .list-container .link-item{
