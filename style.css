@@ -1455,15 +1455,25 @@ section {
     .section{
         flex-direction: column;
     }
-    .section-food-image {
-        /* transform: scale(0.65); */
-    }
 
     .section-details{
         width: 100%;
         text-align: center;
     }
     
-    
-    
+    /* reataurant container / cards--------- */
+    #restaurants-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .leafe-layer.right {
+        right: -8%;
+        transform: scale(0.8);
+    }
+
+    .leafe-layer.left {
+        bottom: -5%;
+        left: -8%;
+        transform: scale(0.8) rotate(180deg);
+    }
 }
