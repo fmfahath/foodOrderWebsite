@@ -1411,6 +1411,15 @@ section {
        background-color: var(--primary-color);
     }
 
+    .nav-extras {
+        width: 80%;
+        /* background-color: antiquewhite; */
+    }
+
+    .nav-extras .search{
+        width: 80%;
+    }
+
 
 
 
