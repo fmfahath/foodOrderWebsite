@@ -1527,6 +1527,7 @@ section {
 }
 
 @media (max-width: 500px){
+    /* hero section-------------------------------------------- */
     .hero-img-container{
         transform: scale(0.7) translateX(0) ;
     }
@@ -1534,5 +1535,10 @@ section {
     .hero-action-btn-container{
         flex-direction: column;
         gap: 1rem;
+    }
+
+    /* retaurant section---------------------------------------- */
+    .section-food-image{
+        transform: scale(0.6);
     }
 }
