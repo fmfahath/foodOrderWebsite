@@ -1589,4 +1589,32 @@ section {
     .section-details .section-info{
         font-size: 1.5rem;
     }
+
+    /* discount section------------------------------------- */
+    .discount-banner {
+        padding: 1rem;
+    }
+
+    .discount-banner .section-details{
+        width: 100%;
+    }
+
+    .discount-banner .section-title{
+        font-size: 1.5rem;
+    }
+
+    .discount-banner .section-info {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-top: -5%;
+    }
+    .discount-banner .section-code {
+        margin-top: -5%;
+    }
+    
+    .discount-slider{
+        display: none;
+    }
+
+
 }
