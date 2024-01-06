@@ -158,7 +158,7 @@ section {
 }
 
 
-/* hero section---------------- */
+/* hero section---------------------------------------------- */
 #hero-section {
     min-height: 100vh;
     background-color: var(--accent-color);
@@ -232,7 +232,7 @@ section {
 
 .btn.transparent:hover {
     color: var(--accent-color);
-    border: none;
+    border-color: var(--secondary-color-hover);
     background-color: var(--secondary-color-hover);
 }
 
@@ -370,7 +370,7 @@ section {
 /* restaurants-section---------------------------------*/
 .section {
     width: 100%;
-    padding: 2rem 0 5rem;
+    padding: 1rem 0 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
