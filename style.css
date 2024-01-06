@@ -12,9 +12,12 @@
     --accent-color: #EAF2F5;
     --primary-text-color: #141414;
     --secondary-text-color: #007676;
+    --navbar-background: #f3f3f3;
     --light-text-color: #fff;
     --primary-color: #fff;
     --secondary-color: #007676;
+    --secondary-color-hover: #001818;
+    --secondary-color-hover-border: #000000;
     --alpha-secondary-color: rgba(0, 118, 118, 0.2);
     --discount-color: #E71A1C;
     --card-hover-bg-color: #F9F9F9;
@@ -40,6 +43,7 @@ html {
 body {
     color: var(--primary-text-color);
     background: var(--primary-color);
+    overflow-x: hidden;
 }
 
 
@@ -60,7 +64,12 @@ section {
     align-items: center;
     padding: 0 10vw;
     z-index: 9;
-    background: var(--accent-color);
+    background: var(--accent-color  );
+    transition: .3s;
+}
+
+.nav-scroll{
+    background-color: var(--navbar-background);
 }
 
 .nav-toggler {
@@ -69,6 +78,7 @@ section {
 
 .logo {
     height: 1.5rem;
+    cursor: pointer;
 }
 
 .list-container {
@@ -207,12 +217,23 @@ section {
     text-transform: capitalize;
     font-weight: 600;
     cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: var(--secondary-color-hover);
 }
 
 .btn.transparent {
     background: transparent;
     border: .1rem solid var(--secondary-color);
     color: var(--secondary-text-color);
+}
+
+.btn.transparent:hover {
+    color: var(--accent-color);
+    border: none;
+    background-color: var(--secondary-color-hover);
 }
 
 .hero-action-btn-container .or {
@@ -1395,6 +1416,7 @@ section {
 
     .list-container.active {
         height: 15rem;
+        background-color: var(--navbar-background);
     }
 
     .list-container .link-item {
@@ -1653,3 +1675,5 @@ section {
         text-align: center;
     }
 }
+
+

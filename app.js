@@ -5,7 +5,7 @@ let discountSlider = document.querySelector('.discount-slider');
 let rotationalVal = 0;
 let navToggler = document.querySelector('.nav-toggler');
 let listContainer = document.querySelector('.list-container');
-
+let navScroll = document.querySelector('.navbar');
 
 
 
@@ -56,3 +56,13 @@ navToggler.addEventListener('click', () => {
     navToggler.classList.toggle('active');
     listContainer.classList.toggle('active');
 });
+
+// nav scroll background color change
+window.onscroll = function () { 
+    if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+        navScroll.classList.add("nav-scroll");
+    } 
+    else {
+        navScroll.classList.remove("nav-scroll");
+    }
+};
